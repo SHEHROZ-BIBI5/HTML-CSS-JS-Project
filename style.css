@@ -1,0 +1,81 @@
+/* Body style */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Main container */
+div {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+h4, h5 {
+    text-align: center;
+    color: #333;
+}
+
+/* Input fields */
+input[type="text"], input[type="password"], input[type="email"], 
+input[type="submit"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Textarea specific styles */
+textarea {
+    resize: vertical;
+}
+
+/* Submit button styles */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Label and checkbox styles */
+label {
+    font-size: 16px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/* Select box style */
+select {
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+/* Form section padding */
+form {
+    padding: 10px;
+}
+
+/* Heading for the form */
+h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
