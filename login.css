@@ -1,0 +1,96 @@
+ /* General Styles */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://media.istockphoto.com/id/2170180752/photo/golden-new-year-2025-celebration-display-with-sparkling-decorations-and-defocused-glittering.jpg?s=1024x1024&w=is&k=20&c=x5SEEov590nEQGlFsnUR4j3Ni4T0M67YvZbSU4w-Il4='); /* Background Image Path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+  }
+  
+  /* Container Styles */
+  .container {
+    width: 100%;
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .input input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    margin-top: 20px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .container {
+      padding: 15px;
+      max-width: 90%;
+    }
+  
+    footer {
+      margin-top: 20px;
+      text-align: center; /* Align the content to center */
+    }
+    
+    footer div {
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: center; /* Ensure both elements are in a row */
+      align-items: center;
+    }
+    
+    footer input {
+      margin-right: 10px; /* Space between checkbox and text */
+    }
+    
+    footer a {
+      margin-left: 10px; /* Space between 'Remember me' and 'Forgot password' */
+      color: #fff;
+      text-decoration: none;
+    }
+    
+    footer a:hover {
+      text-decoration: underline;
+    }
+  }
+  
