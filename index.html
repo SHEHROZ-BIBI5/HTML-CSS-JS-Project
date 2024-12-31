@@ -3,63 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Practice</title>
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<link rel="stylesheet" href="style.css">
 <body>
-<div>
-   <h4>Registration Form</h4>
- <form action="/index.html">
-  <input type="text" placeholder="enter first name">  
-  <br><br>
-  <input type="text" placeholder="Second name">
-  <br><br>
-  <input type="password" placeholder="enter password">
-  <br><br>
-  <input type="email" placeholder="Enter gmail address">
-  <br><br>
-   <label for="123"> 
- <input type="radio" value="Class XI" name="Class" id="123">class XI
-</label>
-<br><br>
- <label for="456"> 
-  <input type="radio" value="Class XII" name="Class" id="456">class XII
- </label>
- <br><br>
- <h5> Select your fourite sebject </h5>
-  <label for="Math"> 
-    <input type="checkbox" value="Math" name="Class" id="111">Math
-  </label> 
-  <br>
-  <label for="Urdo"> 
-    <input type="checkbox" value="Urdo " name="Class" id="222">Urdo
-   </label>
-   <br>
-     <label for="English"> 
-       <input type="checkbox" value="English" name="Class" id="333">English  
-     </label>
-    <br>
-   <label for="Computer Science">
-    <input type="checkbox" value="Computer Science" name="Class" id="444">Computer Science
-   </label>
-   <br>
-   <br>
-   <textarea name="feedback" id="101" placeholder="Enter your feedback " rows="4"></textarea>
- 
-   <br>
-   <h4> Select year city <h4>
-   <select> 
-   <option value="Sailkot">Sailkot</option>
-   <option value="Lahore">Lahore</option>
-   <option value="Islamabad">Islamabad</option>
-   <option value="Karachi">Karachi</option>
-  </select>
-  <br><br>
-  <input type="submit" value="submit">
-</form>
- </main>
- </div>
- </body>
-</html>
+    <h1>Tic Tac Toe</h1>
+    <br><br>
+    <!-- Winner message (Will show only when someone wins) -->
+    <h3 id="winner-message" style="display: none;">Congratulations! You won this game</h3>
+    
+    <!-- New Game Button -->
+    <button class="new">New Game</button>
 
- 
+    <!-- Tic Tac Toe Grid -->
+    <main>
+        <div class="grid">
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+            <button class="box"></button>
+        </div>
+    </main>
+
+    <!-- Reset Game Button -->
+    <button class="reset">Reset Game</button>
+
+    <script src="intro.js"></script>
+</body>
+</html>
