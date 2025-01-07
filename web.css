@@ -1,0 +1,224 @@
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+  }
+#fcb, #inst, #link, #yout {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+ }
+.head {
+    background-color: #246154;
+    padding: 10px;
+}
+.second-head {
+    background-color: #71e9ebe3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.left-section .stylish-text {
+    font-size: 80px;
+    font-weight: 200;
+    font-family: "Arial", sans-serif;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.left-section p {
+    font-size: 20px;
+    color: #555;
+    margin: 5px 0;
+}
+.homeNJ {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    margin-right: 100px;
+}
+#homeN {
+     background-color: #246154;
+        width: 100px;
+        height: 50px; 
+        font-size: 20px;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-right: 20px;
+}
+.homeNJ a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-family: "Arial", sans-serif;
+}
+.homeNJ a:hover {
+    color: #0f1010f4;
+    text-decoration: underline;
+}         
+.para {
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    display: flex;              
+    justify-content: space-between; 
+    align-items: center;        
+}
+#button {
+    background-color: #246154;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#img {
+    width: 200px;  
+    height: auto;
+}
+ .mission {
+    background-color: #a4f2af; 
+    text-align: center;
+    padding: 20px; 
+  }
+    .text1 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px; 
+  }
+    .mission-item {
+    display: inline-block; 
+    margin: 10px;
+    text-align: center;
+  }
+  .mission-item img {
+    width: auto; 
+    height: auto; 
+  }
+    .stylized-text {
+    font-size: 20px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px; 
+  } 
+  .class1 {
+    background-color: #17493e;
+     font-size: 20px;
+    text-align: center;
+    padding: 30px;
+     color: white;
+}
+#para2 {
+    margin: 25px;
+    font-weight: bolder;
+    font-size: 36px; 
+}
+#para3 {
+    margin-top: 10px;
+    color: white;
+    font-size: 18px; 
+    margin: 20px 0;
+}
+ form {
+     border-radius: 10px;
+    padding-right: 40px;
+    width: 70%;
+    margin: 0 auto;
+} 
+.nameLabel {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    text-align: left;
+}
+.userName {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+input[type="submit"] {
+    background-color: white;
+    color: rgb(16, 0, 0);
+    /* padding: 10px 20px; */
+    margin-right: auto;
+     font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    transition: background-color 0.3s;
+ }
+ .about-section {
+    background-color: #c9e5df; 
+    padding: 40px;
+    color:black;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 0%;
+  }
+.about-title {
+    font-size: 36px; 
+    font-weight: bold;
+    text-align: center;
+    line-height: 1; 
+}
+.highlight-name {
+    font-size: 48px; 
+    font-style: italic;
+    color: #0d0d0c; 
+}
+.about-subtitle {
+    font-size: 20px;
+    font-weight:bold;
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+}
+.about-content {
+    font-size: 18px; 
+    line-height: 1.8; 
+    text-align: center;
+     margin-bottom: 20px;
+    color: black; 
+}
+#video1 {
+       background-color: #0c2620;
+       color: white;
+}
+.links {
+     height: 40px; width: 40px;
+      border-radius: 100%; 
+    }
+.social-links {
+     display: flex; justify-content: center; 
+    }
+h1 { 
+    font-size: 48px; font-weight: bold; 
+     text-align: center;
+     }
+#leading {
+     background-color: white; text-align: 
+     center; padding-left: 20%; padding-right: 20%;
+    }
+
+
+
+
