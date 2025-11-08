@@ -1,4 +1,4 @@
-* {
+  * {
     margin: 0;
     padding: 0;
     background-color: #969b9c09;
@@ -60,3 +60,131 @@ button:focus {
 #c {
     background-color: rgb(175, 5, 5);
 }
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    margin-bottom: 2rem;
+}
+
+#heading {
+    color: white;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    max-width: 400px;
+}
+
+.value {
+    grid-column: span 4;
+    height: 80px;
+    font-size: 2rem;
+    text-align: right;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    background: #f8f9fa;
+    color: #333;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.num {
+    height: 70px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    color: #333;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 5px 5px 10px #d1d1d1, -5px -5px 10px #ffffff;
+}
+
+.num:hover {
+    transform: translateY(-2px);
+    box-shadow: 5px 5px 15px #d1d1d1, -5px -5px 15px #ffffff;
+}
+
+.num:active {
+    transform: translateY(1px);
+    box-shadow: inset 5px 5px 10px #d1d1d1, inset -5px -5px 10px #ffffff;
+}
+
+.equal {
+    grid-row: span 2;
+    background: linear-gradient(145deg, #667eea, #764ba2);
+    color: white;
+}
+
+#equ:hover {
+    background: linear-gradient(145deg, #5a6fd8, #6a4190);
+}
+
+#c, [data-button="CE"] {
+    background: linear-gradient(145deg, #ff6b6b, #ee5a52);
+    color: white;
+}
+
+#c:hover, [data-button="CE"]:hover {
+    background: linear-gradient(145deg, #ff5252, #e04848);
+}
+
+[data-button="/"], [data-button="*"], [data-button="-"], [data-button="+"] {
+    background: linear-gradient(145deg, #ffd93d, #ffcd02);
+    color: #333;
+}
+
+[data-button="/"]:hover, [data-button="*"]:hover, 
+[data-button="-"]:hover, [data-button="+"]:hover {
+    background: linear-gradient(145deg, #ffcd02, #ffc107);
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 1.5rem;
+        margin: 0 1rem;
+    }
+    
+    .calculator {
+        gap: 10px;
+    }
+    
+    .num {
+        height: 60px;
+        font-size: 1.2rem;
+    }
+    
+    .value {
+        height: 60px;
+        font-size: 1.5rem;
+    }
+} */
