@@ -73,4 +73,6 @@ resetBtn.addEventListener("click", () => {
     // Reset the turn to "O"
     turno = true;
     winnerMessage.style.display = "none";  // Hide the winner message
+    
 });
+
