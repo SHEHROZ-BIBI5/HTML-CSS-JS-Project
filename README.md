@@ -19,9 +19,9 @@ This repository includes small projects, games, and basic web pages to improve f
 
 ## Screenshots
 
-![Calculator](calculator.png)  
-![Rock Paper Scissors](rock_paper_scissors.png)  
-![Simple Website](web.png)
+![Calculator](https://github.com/SHEHROZ-BIBI5/HTML-CSS-JS-Project/blob/main/ca2025-02-14%20070332.png)  
+![Rock Paper Scissors](https://github.com/SHEHROZ-BIBI5/HTML-CSS-JS-Project/blob/main/rock-2025-02-14%20070503.png)  
+![Simple Website](https://github.com/SHEHROZ-BIBI5/HTML-CSS-JS-Project/blob/main/login%202025-02-14.png)
 
 ## Installation / Usage
 
